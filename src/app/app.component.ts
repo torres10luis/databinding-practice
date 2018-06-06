@@ -11,6 +11,8 @@ import { Component } from '@angular/core';
     {{person.name.firstName + ' ' + person.name.lastName}}
   </p>
   <p> City: {{person.city}} </p>
+  <hr>
+  <p> Sum of  </p>
   `,
   styleUrls: ['./app.component.css']
 })
@@ -27,6 +29,9 @@ export class AppComponent {
     city: 'mexico'
 
   };
+
+  // first = 1;
+  // second = 2;
 
 /* getInitial() {
   if() {
